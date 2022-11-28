@@ -5,14 +5,7 @@ public class Item {
 	private String item_name; 
 	private long price;
 	private int maximum_no_of_item;
-	private int itemid;
-	
-	public int getItemid() {
-		return itemid;
-	}
-	public void setItemid(int itemid) {
-		this.itemid = itemid;
-	}
+
 	public String getItem_name() {
 		return item_name;
 	}
@@ -31,4 +24,6 @@ public class Item {
 	public void setMaximum_no_of_item(int maximum_no_of_item) {
 		this.maximum_no_of_item = maximum_no_of_item;
 	}
+	
+	
 }

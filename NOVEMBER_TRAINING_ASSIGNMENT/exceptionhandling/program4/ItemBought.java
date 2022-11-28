@@ -4,6 +4,7 @@ public class ItemBought {
 	
 	private int itemid;
 	private int itemqty;
+	
 	public int getItemid() {
 		return itemid;
 	}
@@ -16,5 +17,6 @@ public class ItemBought {
 	public void setItemqty(int itemqty) {
 		this.itemqty = itemqty;
 	}
+
 
 }
